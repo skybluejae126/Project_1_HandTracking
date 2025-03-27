@@ -8,7 +8,8 @@
 The goal is to track body movements in Python and replicate them with a 3D model in Unity.
 
 ## ✎ Goals ✎
-<span style="color:red;">Currently, this project supports tracking only one hand.</span> However, future updates will enable dual-hand and full-body tracking.
+🚨 **Currently, this project supports tracking only one hand.** 🚨  
+  &ensp;However, future updates will enable dual-hand and full-body tracking.
 
 - **Real-time Tracking**: Track hands or body movements in real time and apply them to a 3D model.
   - *Hand Mode*: Tracks only the hands.
