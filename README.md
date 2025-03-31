@@ -7,6 +7,8 @@
   - Most modern AR tracking solutions rely on Apple's ARKit. This project aims to use a webcam or a regular smartphone along with Python's MediaPipe to achieve tracking.
 The goal is to track body movements in Python and replicate them with a 3D model in Unity.
 
+<img src = "https://github.com/user-attachments/assets/9408573b-1caa-42fd-bf84-3483c9375ab6" width="100%" height="100%">
+
 ## ✎ Goals ✎
 🚨 **Currently, this project supports tracking only one hand.** 🚨  
   &ensp;However, future updates will enable dual-hand and full-body tracking.
@@ -19,6 +21,13 @@ The goal is to track body movements in Python and replicate them with a 3D model
   - Record and merge tracking data for specific body parts.
   - Track different body parts (e.g., hands, torso) separately and combine them later into a single sequence.
   - This feature could be useful for 3D motion capture applications, such as dance cover videos.
+ 
+## Hand Model Modification
+This project utilizes the **Oculus Hand Model** under the MIT License. The model has been modified using Blender to improve its compatibility with our tracking system. Below is a preview of the modified hand model:
+
+<p align="center"><img src = "https://github.com/user-attachments/assets/9b82ad6b-a51b-40fa-b5b7-c4ce0bf6a962" width="60%" height="60%"></p>
+
+To move each hand landmark, a skeleton was required, and this skeleton was structured with parent-child relationships.
 
 ## ✎ File Structure ✎
 ```
